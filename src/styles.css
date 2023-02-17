@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+button {
+  font-family: "Press Start 2P", cursive;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: #a80020;
+  background: #00b800;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+textarea {
+  font-family: "Press Start 2P", cursive;
+  font-size: 32px;
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: #00b800;
+  padding: 10px;
+}
+
+textarea:disabled {
+  background-color: #a5a2a2;
+}
